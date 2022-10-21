@@ -9,8 +9,8 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: 'k8s/argocd/applications'
-    repoURL: 'https://github.com/twiessner/homelab-k8s-crossplane.git'
+    path: 'applications'
+    repoURL: 'https://github.com/twiessner/homelab-k8s-crossplane-argocd.git'
   project: default
   syncPolicy:
     automated:
