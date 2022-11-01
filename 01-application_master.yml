@@ -11,6 +11,8 @@ spec:
   source:
     path: 'applications'
     repoURL: 'https://github.com/twiessner/homelab-k8s-crossplane-argocd.git'
+    directory:
+      recurse: true
   project: default
   syncPolicy:
     automated:
